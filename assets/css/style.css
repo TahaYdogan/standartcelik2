@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+
+body{ background-color: tertiary;
+
+}
+:root {
+
+    --c-brand: #d74042;
+    --c-brand-rgb: 12, 195, 208;
+    --c-dark: #303050;
+    --c-body: #636383;
+    --c-light: #f6f6f6;
+    --f-main: "Bai Jamjuree", sans-serif;
+    --transition: all .4s cubic-bezier(.165, .84, .44, 1);
+    --shadow: 0px 15px 40px rgba(0, 0, 0, 0.1);
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    font-weight: 700;
+    color: var(--c-dark);
+    font-weight: bold;
+}
+
+body {
+    font-family: var(--f-main);
+    background-color: tertiary;
+    line-height: 1.7;
+
+}
+.top-nav {
+    background-color:#d74042;
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.top-nav a:hover{
+    color: black;
+}
+
+.top-nav p {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.top-nav span,
+.top-nav i {
+    vertical-align: middle;
+}
+
+.social-icons a {
+    padding-left: 15px;
+    color:white;
+}
+.information-icon {
+    padding-left: 15px;
+}
+
+@media screen and (max-width: 576px) {
+    .social-icons{
+        display: none;
+    }
+}
+
+.navbar{
+    margin-top: 10px;
+    height: 45px;
+}
+   
+.navbar-nav {
+    
+    font-weight: bold;
+
+}
+.navbar-nav a:hover {
+    font-size: large;
+    font-weight: bold;
+    color: #ED1F24;
+    padding: 2px;
+}
+.slider{
+     
+    height: 700px;
+}
+.carousel {
+    margin-top: 10px; 
+
+}
+.carousel p{
+    font-size: 60px;
+    color: white;
+ 
+    font-weight: bold;
+    padding-bottom: 40px;
+
+}
+/* section */
+line {
+    width: 60px;
+    height: 2px;
+    background-color:#ED1F24;
+    display: inline-block;
+}
+.section-padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+}
+.section-connector {
+    position: relative;
+}
+.setion-title .line {
+    width: 60px;
+    height: 2px;
+    background-color:#ED1F24;
+    display: inline-block;
+}
+.section-connector::after {
+    margin-top: 70px;
+    content: '';
+    width: 2px;
+    height: 60px;
+    background-color:#ED1F24;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+}
