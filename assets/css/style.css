@@ -2,58 +2,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
 
 
-body{ background-color: tertiary;
 
-}
-:root {
 
-    --c-brand: #d74042;
-    --c-brand-rgb: 12, 195, 208;
-    --c-dark: #303050;
-    --c-body: #636383;
-    --c-light: #f6f6f6;
-    --f-main: "Bai Jamjuree", sans-serif;
-    --transition: all .4s cubic-bezier(.165, .84, .44, 1);
-    --shadow: 0px 15px 40px rgba(0, 0, 0, 0.1);
-}
-h1,
-.h1,
-h2,
-.h2,
-h3,
-.h3,
-h4,
-.h4,
-h5,
-.h5,
-h6,
-.h6 {
-    font-weight: 700;
-    color: var(--c-dark);
-    font-weight: bold;
-}
+
+    
+
 
 body {
-    font-family: var(--f-main);
+    font-family: "Bai Jamjuree", sans-serif;
     background-color: tertiary;
     line-height: 1.7;
 
 }
+
+   
+
 .top-nav {
+    height: 30px;
+    font-size: 14px;
     background-color:#d74042;
     color: rgb(255, 255, 255);
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 3px;
+    
+    font-family: "Bai Jamjuree", sans-serif;
 
 }
 .top-nav a:hover{
     color: black;
+    font-family: "Bai Jamjuree", sans-serif;
 }
 
 .top-nav p {
     display: inline-block;
     margin-bottom: 0;
     margin-right: 10px;
+    font-family: "Bai Jamjuree", sans-serif;
 }
 
 .top-nav span,
@@ -76,8 +59,9 @@ body {
 }
 
 .navbar{
-    margin-top: 43px;
-    height: 50px;
+    margin-top: 30px;
+    height: 60px;
+    font-family: "Bai Jamjuree", sans-serif;
 }
    
 .navbar-nav {
@@ -138,3 +122,34 @@ line {
     top: -50px;
     left: 50%;
 }
+
+.sectiontwo {
+    margin-top: 100px;
+}
+.sttwo{
+    align-items: center;
+}
+.sttwo img{
+    padding-bottom: 10px;
+}
+.sttwo h1 {
+    
+    margin-top: 10px;
+    font-family: "Bai Jamjuree", sans-serif;
+   
+
+}
+.sttwo p {
+    
+    margin-top: 30px;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+.sttwo h2 {
+    text-align: center;
+    
+    margin-top: 15px;
+    font-family: "Bai Jamjuree", sans-serif;
+   
+
+}
+
