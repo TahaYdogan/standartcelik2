@@ -160,3 +160,29 @@ line {
 .scp2 h1{
     margin-bottom: 15px;
 }
+.fps {
+    margin-top: 110px;
+}
+
+.back {
+
+    margin-top: 50px;
+
+}
+.back a {
+    margin-left: 1280px;
+    background-color: #d74042;
+    font-family: "Bai Jamjuree", sans-serif;
+    border-radius: 80%;
+    border-color: aliceblue;
+
+}
+.back a:hover {
+
+    background-color: white;
+    color: black;
+}
+.bstw {
+    padding: 20px;
+    
+}
