@@ -211,13 +211,13 @@ line {
 
 
 .referans {
-    margin-top:200px;
+    margin-top:180px;
+    margin-bottom: 70px;
   
 }
 .referans h2{
-    margin-top:200px;
-    font-family: "Bai Jamjuree", sans-serif;
-   
+    margin-top:180px;
+    font-family: "Bai Jamjuree", sans-serif;   
     text-align: center;
     margin-bottom: 50px;
   
@@ -240,9 +240,16 @@ line {
 .uyglmr {
 
     font-family: "Bai Jamjuree", sans-serif;
-
-    margin-top:210px;
+    margin-bottom: 70px;
+    margin-top:180px;
 } 
+.uyglmr h2{
+    margin-top:180px;
+    font-family: "Bai Jamjuree", sans-serif;   
+    text-align: center;
+    margin-bottom: 50px;
+  
+}
 .icrk {
       
     color: black;
