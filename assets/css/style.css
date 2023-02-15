@@ -39,12 +39,19 @@ body {
     margin-right: 10px;
     font-family: "Bai Jamjuree", sans-serif;
 }
-
+.texts {
+  margin-left: 70px;
+}
 .top-navv span,
 .top-navv i {
     vertical-align: middle;
+    
 }
 
+.social-icons {
+  margin-right: 70px;
+
+}
 .social-icons a {
     padding-left: 15px;
     color:white;
@@ -56,6 +63,7 @@ body {
 	border-radius: 100px;
     width: 35px;
     height: 35px;
+   
     
 
 }
