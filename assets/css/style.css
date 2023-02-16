@@ -119,7 +119,7 @@ body {
   list-style: none;
   margin-left: 1.5rem;
  
-  font-size: 1.2rem;
+  font-size: 1.1 rem;
 }
 
 .menu-items a {
@@ -219,9 +219,11 @@ body {
     display: flex;
     flex-direction: column;
     margin-left: -40px;
-    padding-left: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     transition: transform 0.5s ease-in-out;
     box-shadow: 5px 0px 10px 0px #aaa;
+
   }
 
   .navbar .menu-items li {
@@ -509,9 +511,16 @@ line {
       
     color: black;
     margin-top:200px;
+    display: flex;
+    
 } 
+
 .imgs img {
-    width: 350px;
+    
+    width: 90%;
+    height: auto;
+ 
+    
 }
 .icrk2 {
     
