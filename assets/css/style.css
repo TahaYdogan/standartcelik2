@@ -85,6 +85,9 @@ body {
 
 
 
+
+
+
 .navbar input[type="checkbox"],
 .navbar .hamburger-lines {
   display: none;
@@ -405,6 +408,47 @@ line {
 .sttwo{
     align-items: center;
 }
+.ikiki{
+  margin-bottom: 100px;
+  display: flex;
+}
+.ikiki a{
+  color: black;
+  
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ikiki h5{  
+  
+  
+  font-weight: 600;
+  font-size: 1.4rem;
+  
+}
+.ikiki p{  
+  
+  
+ padding-top: 20px;
+ padding-bottom: 20px;
+  
+}
+
+
+.ikiki img{
+
+height: auto;
+padding-bottom: 20px;
+
+}
+
+@media screen and (max-width: 1000px) {
+  .ikiki{
+      display: none;
+  }
+}
 .sttwo img{
     padding-bottom: 10px;
 }
@@ -481,8 +525,8 @@ line {
 }
 .referans img{
     
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
 }
 
 .referans p {
@@ -674,8 +718,10 @@ line {
 
 /* Footer Right */
 
+
 .footer-distributed .footer-right{
 	width: 20%;
+
 }
 
 .footer-distributed .footer-company-about{
@@ -689,7 +735,7 @@ line {
 .footer-distributed .footer-company-about span{
 	display: block;
 	color:  #ffffff;
-	font-size: 14px;
+	font-size: 19px;
 	font-weight: bold;
 	margin-bottom: 20px;
 }
